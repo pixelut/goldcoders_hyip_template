@@ -1,0 +1,1846 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #141b1a;
+  padding-top: 50px;
+}
+
+.navbar-brand {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #22ddcd !important;
+}
+
+.nav-link {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #cacaca !important;
+  margin-right: 44px;
+}
+
+.custom_btn1 {
+  padding: 11px 31px;
+  background: #22ddcd !important;
+  border-radius: 4px;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333 !important;
+}
+
+.custom_btn2 {
+  padding: 13px 31px;
+  border: 1px solid #22ddcd !important;
+  border-radius: 4px;
+  background: rgba(34, 221, 205, 0.2) !important;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #22ddcd !important;
+}
+
+.navbar .custom_btn1 {
+  margin-left: 18px;
+}
+
+h1 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 93px;
+  color: #ffffff;
+}
+
+.page_title1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.page_sub_title {
+  text-align: center;
+  max-width: 644px;
+  margin: 24px auto !important;
+}
+
+h2 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+p {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #dfdfdf;
+}
+
+.other_page {
+  background: url(../img/other_page_bg.png) no-repeat, #141b1a;
+  background-position: center top;
+}
+
+.other_page .hero {
+  background: none;
+  margin-top: 125px;
+  margin-bottom: 81px;
+}
+
+/* Hero */
+
+.hero {
+  background: url(../img/lines.png) no-repeat;
+  background-position: center center;
+  margin-top: 75px;
+}
+
+.hero .custom_btn1 {
+  box-shadow: 0px 0px 8px rgba(34, 221, 205, 0.5);
+  margin-right: 20px;
+}
+
+.hero .custom_btn2 {
+  background: transparent !important;
+}
+
+.hero p {
+  margin: 44px 0 49px;
+}
+
+/* !Hero */
+
+/* Investment Plan */
+
+.investment_plan {
+  margin-top: 115px;
+}
+
+.investment_plan h2 {
+  margin-bottom: 50px;
+}
+
+.plan_box {
+  background: url(../img/plan_box.png) no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  padding: 40px 57px 55px;
+}
+
+.plan_box h2 {
+  color: #22ddcd;
+  margin-bottom: 0;
+}
+
+.plan_subbox {
+  background: url(../img/plan_subbox.png) no-repeat;
+  background-size: 100% 100%;
+  border-radius: 5px;
+  margin-top: 32px;
+  padding: 17px;
+}
+
+.plan_box p {
+  margin-bottom: 0;
+}
+
+.plan_box h6 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #22ddcd;
+}
+
+.plan_box .custom_btn2,
+.plan_box .custom_btn1 {
+  margin-top: 52px;
+}
+
+.investment_plan .active {
+  background: url(../img/plan_box.png) no-repeat, #103e3a;
+  background-size: 100% 100%;
+}
+
+.investment_plan .active h6,
+.investment_plan .active h2 {
+  color: #ffffff;
+}
+
+/* !Investment Plan */
+
+/* Features */
+
+.features {
+  margin-top: 132px;
+}
+
+.features h2 {
+  margin-bottom: 62px;
+}
+
+.features_box {
+  width: 100%;
+  height: 100%;
+  background: url(../img/features_box.png) no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  padding: 30px 15px 49px;
+}
+
+.features_box p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.features_box h6 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 21px 0 36px;
+}
+
+.features_img_box {
+  border: 1px solid #22ddcd !important;
+  border-radius: 100px;
+  padding: 25px;
+  height: 83px;
+  width: 83px;
+  margin: auto;
+}
+
+/* !Features */
+
+/* About Us */
+
+.aboutus {
+  margin-top: 120px;
+}
+
+.aboutus p {
+  margin: 38px 0 36px;
+  max-width: 487px;
+}
+
+.aboutus ul {
+  list-style-type: none;
+  /* padding-left: 0; */
+  position: relative;
+}
+
+.aboutus ul li::before {
+  content: url(../img/check-mark\ 4.svg);
+  display: block;
+  position: absolute;
+  left: 0;
+}
+
+.aboutus ul p {
+  margin: 0;
+  margin-left: 23px;
+  margin-bottom: 38px;
+}
+
+/* About Us */
+
+/* Companies */
+
+.companies {
+  margin-top: 120px;
+}
+
+.companies h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.companies_box {
+  background: url(../img/companies_box.png) no-repeat;
+  background-size: 100% 100%;
+  border-radius: 15px;
+  padding: 11px;
+  height: 100%;
+  width: 100%;
+}
+
+.companies_box img {
+  border-radius: 5px;
+}
+
+.companies_box_body {
+  padding: 10px;
+}
+
+.companies_box p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.companies_box h5 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  margin: 4px 0;
+}
+
+.companies_box h6 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #dfdfdf;
+  margin-bottom: 36px;
+}
+
+/* !Companies */
+
+/* Advance */
+
+.advance {
+  margin-top: 120px;
+}
+
+.advance h2 {
+  margin-bottom: 66px;
+}
+
+.advance_box {
+  background: url(../img/advance_box.png) no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 34px;
+  margin-bottom: 66px;
+}
+
+.advance_box p {
+  margin-bottom: 0;
+}
+
+.advance_box h1 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 74px;
+  margin-bottom: 28px;
+}
+
+.advance_box h6 {
+  margin-left: 14px;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.advance_box .custom_btn1 {
+  box-shadow: 0px 0px 8px rgba(34, 221, 205, 0.5);
+  margin-top: 65px;
+}
+
+.video_box {
+  background: #146059;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding-bottom: 26px;
+}
+
+.video_img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.video_img_box {
+  position: relative;
+  /* height: 367px; */
+  width: 100%;
+}
+
+.play_btn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 58px;
+  height: 58px;
+  padding: 0;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.video_box h5 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 14px;
+  margin-left: 28px;
+  max-width: 487px;
+}
+
+/* !Advance */
+
+/* Cryptocurrencies */
+
+.cryptocurrencies {
+  margin-top: 54px;
+}
+
+.cryptocurrencies h2 {
+  margin-bottom: 17px;
+}
+
+.cryptocurrencies p {
+  margin-bottom: 58px !important;
+  max-width: 644px;
+  margin: auto;
+}
+
+.payment_icon {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+}
+
+/* !Cryptocurrencies */
+
+/* Affiliate */
+
+.affiliate {
+  margin-top: 120px;
+}
+
+.affiliate h2 {
+  margin-bottom: 17px;
+  text-align: center;
+}
+
+.affiliate p {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 89px !important;
+  max-width: 644px;
+}
+
+.affiliate_box1 {
+  background: url(../img/companies_box.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 75px 46px;
+  width: 100%;
+  height: 100%;
+}
+
+.affiliate_box1 h4 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  color: #22ddcd;
+}
+
+.affiliate_box1 p {
+  margin: 91px 0 47px !important;
+  text-align: left;
+}
+
+/* !Affiliate */
+
+/* Our roadmap */
+
+.roadmap {
+  margin-top: 120px;
+}
+
+.roadmap h2 {
+  text-align: center;
+}
+
+.roadmap p {
+  text-align: center;
+  max-width: 644px;
+  margin: 24px auto 75px;
+}
+
+.roadmap_details {
+  position: relative;
+}
+
+.roadmap_details::after {
+  content: url(../img/roadmap_details_bg.png);
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 44%;
+}
+
+.roadmap_box {
+  background: url(../img/roadmapbg.png) no-repeat !important;
+  background-size: 100% 100% !important;
+  padding: 25px;
+  width: 510px;
+  height: 224px;
+  margin: auto;
+}
+
+.roadmap_box_left {
+  position: relative;
+}
+
+.roadmap_box_left::after {
+  content: url(../img/roadmap_box_left.png);
+  display: block;
+  position: absolute;
+  right: -12px;
+  top: -16px;
+}
+
+.roadmap_box_right {
+  position: relative;
+  margin-top: 125px;
+}
+
+.roadmap_box_right::before {
+  content: url(../img/roadmap_box_right.png);
+  display: block;
+  position: absolute;
+  left: -12px;
+  top: -16px;
+}
+
+.roadmap_box h5 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.roadmap_box h4 {
+  margin: 16px 0;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.roadmap_box h6 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b4c5cb;
+}
+
+/* !Our roadmap */
+
+/* Rating */
+
+.rating {
+  margin-top: 120px;
+}
+
+.rating p {
+  margin: 22px 0 31px;
+}
+
+.rating_box {
+  background: url(../img/ratingbg.png) no-repeat;
+  background-size: 100% 100%;
+  height: 383px;
+  width: 308px;
+  border-radius: 20px;
+  padding: 72px 55px 56px;
+  text-align: center;
+  position: relative;
+}
+
+.rating_box h5 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.rating_box h6 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  margin: 7px 0 17px;
+}
+
+.rating_box a {
+  width: 214px;
+  height: 70px;
+  background: #227871 !important;
+  border-radius: 15px;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff !important;
+  padding-top: 23px;
+  margin-top: 59px;
+  margin-left: 161px;
+}
+
+.rating .item img {
+  width: 164px !important;
+}
+
+.rating .owl-carousel {
+  position: relative;
+}
+
+.rating .owl-dots {
+  position: absolute;
+  right: -25px;
+  top: 0;
+  bottom: 0;
+  transform: rotate(90deg);
+}
+
+.rating .owl-dots .owl-dot span {
+  background: #666666 !important;
+}
+
+.rating .owl-dots .active span {
+  background: #04d6bd !important;
+}
+
+/* !Rating */
+
+/* Blog */
+
+.blog {
+  margin-top: 120px;
+}
+
+.blog h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.blog_box {
+  background: url(../img/companies_box.png) no-repeat !important;
+  background-size: 100% 100% !important;
+  border: none !important;
+  width: 100%;
+  height: 100% !important;
+  padding: 13px;
+}
+
+.blog_box h4 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.blog_box_body {
+  padding: 21px !important;
+}
+
+.blog_box h5 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.blog_box img {
+  width: 394px;
+  height: 198px;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+.pagination .page-link {
+  width: 46.48px;
+  height: 46.48px;
+  padding-top: 12px;
+  margin-right: 14px;
+  text-align: center;
+  background: transparent !important;
+  border: 0.72619px solid #bdbdbd;
+  border-radius: 72.619px !important;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  transition: linear 0.3s;
+}
+
+.pagination .active .page-link,
+.pagination .page-link:hover {
+  background: #22ddcd !important;
+  color: #ffffff;
+  border: 1px solid transparent !important;
+}
+
+.full_news h3 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  color: #22ddcd;
+}
+
+.full_news h5 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #999999;
+  margin: 12px 0 19px;
+}
+
+.full_news p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #dfdfdf;
+  margin-top: 21px;
+}
+
+/* !Blog */
+
+/* Started */
+
+.started {
+  margin: 120px 0;
+}
+
+.started_box {
+  background: linear-gradient(
+    180deg,
+    rgba(38, 155, 145, 0.2) 0%,
+    rgba(0, 255, 233, 0.2) 100%
+  );
+  border-radius: 20px;
+  text-align: center;
+  padding: 48px 0 61px;
+}
+
+.started_box p {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+/* !Started */
+
+/* Footer */
+
+footer {
+  margin-bottom: 50px;
+}
+
+footer .social {
+  margin-top: 24px;
+}
+
+footer .social a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.footer_nav {
+  margin-top: 32px;
+}
+
+.footer_nav .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  margin-right: 36px;
+}
+
+.footer_nav .custom_btn1,
+.footer_nav .custom_btn2 {
+  font-size: 16px;
+  padding: 5px 25px;
+}
+
+/* !Footer */
+
+/* Company Page */
+
+.company_hero {
+  margin: 217px 0 177px;
+}
+
+.weare {
+  margin-top: 120px;
+}
+
+.team {
+  margin-top: 120px;
+}
+
+.team h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.team_box {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  background: linear-gradient(180deg, #0a322f 0%, #202625 100%);
+  border-radius: 10px;
+  padding: 21px 0 33px;
+}
+
+.team_box h5 {
+  margin: 39px 0 7px;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.team_box img {
+  height: 200px !important;
+  width: 200px !important;
+  border-radius: 100px;
+}
+
+/* !Company Page */
+
+/* Contact Page */
+
+.contact_box {
+  background: url(../img/contact_box.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 65px;
+}
+
+.contact_box h3 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 53px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.address_section {
+  margin-top: 42px;
+}
+
+.address_section h5 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.contact_box p {
+  font-size: 20px;
+}
+
+.address_section img {
+  margin-right: 21px;
+}
+
+.form_box {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #979797;
+  border-radius: 6px;
+  padding: 38px;
+}
+
+.contact_box .form-control {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #999999 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 30px;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.contact_box textarea.form-control {
+  margin-top: 70px;
+}
+
+/* !Contact Page */
+
+/* Fee Page */
+
+.fee_box {
+  background: url(../img/contact_box.png) no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  padding: 27px;
+}
+
+table {
+  border: 1px solid rgba(34, 221, 205, 0.1) !important;
+}
+
+table th {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* text-align: center; */
+  color: #ffffff;
+}
+
+table td {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* text-align: center; */
+  color: #d7d7d7;
+}
+
+table td img {
+  width: 28px;
+  height: 28px;
+  margin-right: 31px;
+}
+
+.withdraw_fee {
+  color: #22ddcd;
+}
+
+/* !Fee Page */
+
+/* Login Page */
+
+.login_box {
+  width: 100%;
+  /* height: 100%; */
+  border: 1px solid #22ddcd;
+  border-radius: 15px;
+  margin: 176px 0;
+  padding: 46px;
+}
+
+.login_box h4 {
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.login_box p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+
+.login_box h6 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #fff;
+  margin: 44px 0 36px;
+}
+
+.login_box h6 span {
+  color: #22ddcd;
+}
+
+.login_box .form-control {
+  border: 1px solid #22ddcd;
+  border-radius: 5px;
+  height: 42px !important;
+  background: transparent !important;
+  margin-bottom: 20px;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  box-shadow: none !important;
+}
+
+.login_box .form-label,
+.login_box .form-check-label {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.login_box .form-check-label {
+  margin-left: 14px;
+}
+
+.login_box a {
+  color: #22ddcd;
+}
+
+.login_box .custom_btn1 {
+  margin-top: 18px;
+}
+
+.login_box .form-switch .form-check-input {
+  width: 44px !important;
+  height: 24px !important;
+  border-radius: 12px;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.login_box .form-switch .form-check-input:checked {
+  background-color: rgba(34, 221, 205, 0.2);
+}
+
+.error {
+  color: red;
+  font-family: "Exo";
+  font-size: 18px;
+}
+
+/* !Login Page */
+
+/* Dashboard */
+
+/* Account Page */
+
+.admin_page .nav-link {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.admin_page .hero {
+  background: transparent;
+  margin-top: 67px;
+}
+
+.page_title2 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.acc_box1 {
+  background: url(../img/acc_box1.png) no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  padding: 34px 38px;
+  text-align: center;
+}
+
+.acc_box1 p {
+  color: #e9e9e9;
+  margin-bottom: 0;
+}
+
+.acc_box1 h5 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 49px;
+  color: #e9e9e9;
+  margin: 17px 0 31px;
+}
+
+.acc_btn1,
+.sbmt {
+  padding: 5px 26px;
+  filter: drop-shadow(0px 4px 9px rgba(0, 0, 0, 0.15));
+  background: #22ddcd !important;
+  border-radius: 5px;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333 !important;
+}
+
+.acc_btn2 {
+  border: 1px solid #22ddcd !important;
+  border-radius: 5px;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff !important;
+}
+
+.acc_box2 h5 {
+  margin-bottom: 28px;
+  margin-top: 0 !important;
+}
+
+.acc_box3 {
+  background: url(../img/acc_box2.png) no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  padding: 38px 28px;
+}
+
+.acc_box3 h6 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #cacaca;
+  margin-bottom: 5px;
+}
+
+.acc_box3 p {
+  margin-bottom: 0;
+}
+
+.acc_box3 p span {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #22ddcd;
+}
+
+.acc_box3 h5 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 43px;
+  color: #22ddcd;
+}
+
+.account_page .pp_icon {
+  margin: 67px 0 47px;
+}
+
+.pp_icon .owl-dots {
+  margin-top: 30px !important;
+}
+
+.pp_icon .owl-dots .owl-dot span {
+  background: #666666 !important;
+}
+
+.pp_icon .owl-dots .active span {
+  background: #04d6bd !important;
+}
+
+.pp_icon_box {
+  max-width: 195px;
+  height: 113px;
+  background: rgba(34, 221, 205, 0.2);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 13px;
+}
+
+.pp_icon_box img {
+  height: 27px !important;
+  width: 27px !important;
+  margin-right: 5px;
+}
+
+.pp_icon_box p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.pp_icon_box h4 {
+  text-align: center;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  color: #ffffff;
+  margin-top: 12px;
+}
+
+.admin_page footer {
+  margin-top: 120px;
+}
+
+.account_page .investment_plan {
+  margin-top: 47px;
+}
+
+.account_page .investment_plan h3 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  margin-bottom: 19px;
+  color: #ffffff;
+}
+
+.account_page .started_box2 {
+  margin-top: 120px;
+}
+
+.started_box2 {
+  background: linear-gradient(180deg, #158379 0%, rgba(11, 51, 48, 0) 100%);
+  border-radius: 5px;
+  border: 1px solid #04d6bd;
+  padding: 34px 0 50px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.started_box2 h3 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.started_box2 h6 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.started_box2 .input-group {
+  width: 459px;
+  height: 40px;
+  background: rgba(34, 221, 205, 0.2);
+  border-radius: 4px;
+  padding: 2px;
+  padding-left: 3px;
+}
+
+.started_box2 .input-group img {
+  width: 36px !important;
+  height: 36px !important;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
+}
+
+.started_box2 .input-group input {
+  height: 100%;
+  background: transparent;
+  border: none !important;
+  box-shadow: none !important;
+  font-family: "Exo";
+  margin-left: 11px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.started_box2 button {
+  width: 44px;
+  height: 40px;
+  margin-left: 7px;
+  padding: 0;
+}
+
+/* !Account Page */
+
+/* Deposit Page */
+
+.s_plan {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 19px;
+  color: #cacaca;
+}
+
+.s_plan small {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #999999;
+}
+
+.deposit_page .investment_plan {
+  margin-top: 0;
+  margin-bottom: 46px;
+}
+
+.plabel {
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+}
+
+.plabel input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.plabel .plan_box {
+  transition: linear 0.3s;
+}
+
+.plabel .plan_box h6,
+.plabel .plan_box h2 {
+  color: #ffffff;
+}
+
+.plabel input:checked ~ .plan_box {
+  background: url(../img/plan_box.png) no-repeat, #103e3a;
+  background-size: 100% 100%;
+}
+
+.plabel input:checked ~ .plan_box h6,
+.plabel input:checked ~ .plan_box h2 {
+  color: #22ddcd;
+}
+
+.process_sec {
+  margin-bottom: 50px;
+}
+
+.plabel .pp_icon_box {
+  width: 100% !important;
+  height: 113px;
+  background: transparent;
+  transition: linear 0.3s;
+  border: 1px solid #22ddcd;
+}
+
+.plabel .pp_icon_box2 {
+  padding-top: 42px;
+}
+
+.plabel input:checked ~ .pp_icon_box {
+  background: rgba(34, 221, 205, 0.2) !important;
+}
+
+.submit_sec input {
+  box-shadow: none !important;
+  background: #ffffff;
+  border-radius: 4px;
+  max-width: 420px;
+  height: 46px;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #666666;
+  margin-bottom: 25px;
+}
+
+/* !Deposit Page */
+
+/* Transactions Page */
+
+.admin_page .table-responsive {
+  border-radius: 4px !important;
+  border: 1px solid #22ddcd;
+}
+
+.admin_page table {
+  background: #103e3a;
+  filter: drop-shadow(0px 4px 22px rgba(0, 0, 0, 0.1));
+  text-align: center;
+  border-radius: 4px !important;
+  color: #fff !important;
+  margin-bottom: 0;
+}
+
+.admin_page .table-striped > tbody > tr:nth-of-type(odd) > * {
+  background: #141b1a;
+  color: #fff !important;
+}
+
+.transactions_page label {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #dedede;
+  margin-bottom: 8px;
+}
+
+.admin_page .form-select {
+  width: 100%;
+  height: 46px;
+  background: transparent;
+  border-radius: 4px;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #dedede;
+  box-shadow: none !important;
+  margin-bottom: 19px;
+  padding: 10px;
+}
+
+.admin_page .form-select option {
+  background: #000;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #dedede;
+}
+
+/* !Transactions Page */
+
+/* Settings Page */
+
+.settings_box {
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+  border-radius: 5px;
+  border: 1px solid #22ddcd;
+  padding: 36px 25px;
+  margin-bottom: 42px;
+  width: 100%;
+  height: 100%;
+}
+
+.settings_page h3 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.settings_page label {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.settings_page label img {
+  height: 23px;
+  width: 23px;
+  margin-right: 10px;
+}
+
+.settings_page input {
+  width: 100%;
+  height: 46px;
+  border: 1px solid #999999;
+  border-radius: 2px;
+  box-shadow: none !important;
+  background: transparent !important;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff !important;
+  margin-bottom: 26px;
+}
+
+/* !Settings Page */
+
+/* Partner Page */
+
+.partner_box {
+  background: url(../img/acc_box1.png) no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 219px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.partner_box h4 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 28px;
+  color: #22ddcd;
+}
+
+.partner_page .started_box2 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* !Partner Page */
+
+/* Promo Page */
+
+.promo_page .nav-link {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  border: 1px solid #22ddcd;
+  color: #ffffff;
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.1));
+  border-radius: 2px;
+  height: 47px;
+  width: 100%;
+}
+
+.promo_page .nav-pills .active {
+  background: #103e3a;
+}
+
+.promo_box {
+  background: linear-gradient(180deg, #303030 0%, #070707 100%);
+  border-radius: 5px;
+  width: 100%;
+  height: 404px;
+  border: 1px solid #2cddc0;
+  margin-top: 34px;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+.promo_box h6 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #22ddcd;
+}
+
+.promo_box img {
+  margin: 35px 0;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+}
+
+.promo_box textarea {
+  background: #ffffff;
+  border: 1px solid #666666;
+  border-radius: 5px;
+  max-width: 825px;
+  height: 117px;
+  box-shadow: none !important;
+  margin: auto;
+  padding: 25px 27px;
+}
+
+/* !Promo Page */
+
+/* Withdraw Page */
+
+.withdraw_page .pp_icon_box {
+  height: 100%;
+}
+
+.withdraw_page .pp_icon_box h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center !important;
+  color: #fff;
+}
+
+.withdraw_page .pp_icon_box h6 a {
+  color: #fff;
+}
+
+/* !Withdraw Page */
+
+/* !Dashboard */
+
+/* Laptop Screen */
+
+@media screen and (width: 1366px) {
+  .nav-link {
+    margin-right: 20px;
+  }
+
+  .roadmap_details::after {
+    display: none;
+  }
+
+  .footer_nav .nav-link {
+    margin-right: 10px;
+  }
+
+  .admin_page .nav-link {
+    margin-right: 10px;
+  }
+
+  .acc_box1 {
+    padding: 20px;
+  }
+}
+
+/* !Laptop Screen */
+
+/* iPad Screen */
+
+@media screen and (width: 1024px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .nav-link {
+    margin-right: 0px;
+  }
+
+  .payment_icon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .roadmap_details::after {
+    display: none;
+  }
+
+  .roadmap_box {
+    width: 100%;
+    background-size: 100% 100% !important;
+  }
+
+  .rating .owl-dots {
+    right: -0px;
+  }
+
+  .footer_nav .nav-link {
+    font-size: 14px;
+    margin-right: 0px;
+  }
+
+  .footer_nav .custom_btn1,
+  .footer_nav .custom_btn2 {
+    font-size: 14px;
+  }
+
+  .admin_page .nav-link {
+    font-size: 14px;
+    margin-right: 0px;
+  }
+
+  .acc_box1 {
+    padding: 20px;
+  }
+
+  .account_page .acc_btn1,
+  .account_page .acc_btn2 {
+    width: 100%;
+  }
+}
+
+@media screen and (width: 768px) {
+  .payment_icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .roadmap_details::after {
+    display: none;
+  }
+
+  .roadmap_box {
+    margin-bottom: 25px;
+  }
+
+  .roadmap_box_right {
+    position: relative;
+    margin-top: 0;
+  }
+
+  .rating .owl-dots {
+    right: -0px;
+  }
+}
+
+/* !iPad Screen */
+
+/* Mobile Screen */
+
+@media screen and (max-width: 760px) {
+  body {
+    min-width: 360px !important;
+  }
+  h1 {
+    font-size: 46px;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  .plan_box {
+    padding: 30px;
+  }
+
+  .advance_box h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  .payment_icon {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .roadmap_details::after {
+    display: none;
+  }
+
+  .roadmap_box_right {
+    position: relative;
+    margin-top: 0;
+  }
+
+  .roadmap_box {
+    width: 100%;
+    margin-bottom: 25px;
+    height: 224px;
+  }
+
+  .rating_box {
+    height: 383px;
+    width: 100%;
+  }
+
+  .rating_box a {
+    margin-left: 0;
+  }
+
+  .rating .owl-dots {
+    right: 0;
+    transform: rotate(0deg);
+    position: relative;
+  }
+
+  .contact_box {
+    padding: 25px;
+  }
+
+  .form_box {
+    padding: 15px;
+  }
+}
+
+/* !Mobile Screen */
